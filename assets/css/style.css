@@ -1,0 +1,216 @@
+body {
+    background-image: url(../img/fondozoro_.jpg);
+    background-size: contain;
+}
+
+/* -----------------------SECTION1----------------------- */
+.section1 {
+    background-image: url(../img/comic0.jpg);
+    background-size: cover;
+    border: solid rgb(0, 0, 0) 5px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    margin: 45px;
+}
+
+.section1__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section1--img {
+    width: 350px;
+    
+}
+
+.section1--titulo {
+    text-align: center;
+    font-family: "honk", sans-serif;
+    font-size: 80px;
+}
+
+/* -----------------------SECTION2----------------------- */
+.section2 {
+    height: 420px;
+    background-color: bisque;
+    border: solid rgb(0, 0, 0) 5px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    margin: 45px;
+    background-image: url(../img/comic2.jpg);
+    background-size: cover;
+}
+
+.section2--titulo {
+    text-align: center;
+    font-family: "honk", sans-serif;
+    font-size: 80px;
+}
+
+.section2__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* -----------------------SECTION3----------------------- */
+.section3 {
+    background-image: url(../img/comic1.jpg);
+    background-size: cover;
+    height: 320px;
+    border: solid black 5px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    margin: 45px;
+}
+
+.section3--titulo {
+    text-align: center;
+    font-family: "honk", sans-serif;
+    font-size: 80px;
+}
+
+.section3__form {
+    display: flex;
+    max-height: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.section3__input {
+    width: 80px;
+    height: 50px;
+    font-size: 30px;
+}
+
+
+/* -----------------------SECTION4----------------------- */
+.section4 {
+    background-image: url(../img/comic4.jpg);
+    background-size: cover;
+    height: 520px;
+    border: solid black 5px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    margin: 45px;
+}
+
+.section4--titulo {
+    text-align: center;
+    font-family: "honk", sans-serif;
+    font-size: 80px;
+}
+
+.section4__input {
+    width: 80px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.section4__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section4--block {
+    text-align: center;
+}
+
+
+/* -----------------------SECTION5----------------------- */
+.section5 {
+    background-image: url(../img/comic3.jpg);
+    background-size: cover;
+    height: 450px;
+    border: solid black 5px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    margin: 45px;
+}
+
+.section5--titulo {
+    text-align: center;
+    font-family: "honk", sans-serif;
+    font-size: 80px;
+}
+
+.section5__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section5--block {
+    display: block;
+    text-align: center;
+}
+
+p {
+    font-family: "Reem kufi fun", sans-serif;
+    font-size: 45px;
+}
+
+label {
+    font-family: "Reem kufi fun", sans-serif;
+    font-size: 45px;
+}
+
+/*------------------- BUTTON -----------------------*/
+
+
+/*----------- INPUT -----------*/
+input {
+    border: 3px solid #000;
+    border-radius: 5px;
+    line-height: normal;
+    color: #282828;
+    width: 100%;
+    box-sizing: border-box;
+    user-select: auto;
+    font-size: 16px;
+}
+
+input:focus {
+    border: 5px solid #ff0000;
+}
+
+
+/*---------------- BUTTON ----------------*/
+.style--button {    
+    align-self: center;
+    background-image: url(../img/papel.jpg);
+    object-fit: cover;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "advent pro", sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.style--button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.style--button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}

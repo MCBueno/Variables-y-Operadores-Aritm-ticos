@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Variables y Operadores</title>
+</head>
+
+<body>
+    <section class="section1">
+        <h1 class="section1--titulo">Diagramas de Flujo de Operadores</h1>
+        <div class="section1__container">
+            <div class="operador__suma">
+                <img class="section1--img" src="assets/img/SUMA.png" alt="suma">
+            </div>
+            <div class="operador__resta">
+                <img class="section1--img" src="assets/img/RESTA.png" alt="resta">
+            </div>
+            <div class="operador__multiplicacion">
+                <img class="section1--img" src="assets/img/MULTIPLICACION.png" alt="multiplicacion">
+            </div>
+            <div class="operador__division">
+                <img class="section1--img" src="assets/img/DIVISION.png" alt="divison">
+            </div>
+            <div class="operador__modulo">
+                <img class="section1--img" src="assets/img/MÓDULO.png" alt="modulo">
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <h1 class="section2--titulo">Operadores Aritméticos</h1>
+        <div class="section2__container">
+            <div class="section2__operacion">
+                <button class="style--button" onclick="suma()">suma</button>
+                <p class="section2__operacion--text" id="resultado-suma"></p>
+            </div>
+            <div class="section2__operacion">
+                <button class="style--button" onclick="resta()">resta</button>
+                <p class="section2__operacion--text" id="resultado-resta"></p>
+            </div>
+            <div class="section2__operacion">
+                <button class="style--button" onclick="multiplicacion()">multiplicación</button>
+                <p class="section2__operacion--text" id="resultado-multiplicacion"></p>
+            </div>
+            <div class="section2__operacion">
+                <button class="style--button" onclick="division()">División</button>
+                <p class="section2__operacion--text" id="resultado-division"></p>
+            </div>
+            <div class="section2__operacion">
+                <button class="style--button" onclick="modulo()">Modulo</button>
+                <p class="section2__operacion--text" id="resultado-modulo"></p>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <form>
+            <h1 class="section3--titulo">Conversor de Temperatura</h1>
+            <div class="section3__form">
+                <button type="button" class="section3__button style--button" onclick="conversor()">Conversor</button>
+                <div>
+                    <input class="section3__input" type="text" name="celcius" id="celcius">
+                    <label for="celcius">°C</label>
+                </div>
+                <p id="fahrenheit"></p>
+                <p id="kelvin"></p>
+            </div>
+        </form>
+    </section>
+    <section class="section4">
+        <form class="section4__form">
+            <h1 class="section4--titulo">Calculador de Días</h1>
+            <div class="section4__info">
+                <div class="section4--input">
+                    <input class="section4__input" id="dias-ingresados">
+                    <button type="button" class="section4__button style--button" onclick="dias()">Calcular</button>
+                </div>
+                <div class="section4--block">
+                    <p id="años"></p>
+                    <label for="años">Años</label>
+                </div>
+                <div class="section4--block">
+                    <p id="semanas"></p>
+                    <label for="semanas">Semanas</label>
+                </div>
+                <div class="section4--block">
+                    <p id="dias"></p>
+                    <label for="dias">Días</label>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="section5">
+        <h1 class="section5--titulo">Suma y Promedio</h1>
+        <div class="section5__container">
+            <div>
+                <button type="button" class="section5__button style--button"
+                    onclick="sumaPromedio()">Sumar/Promedio</button>
+            </div>
+            <div class="section5--block">
+                <label for="suma">Suma</label>
+                <p id="suma"></p>
+            </div>
+            <div class="section5--block">
+                <label for="promedio">Promedio</label>
+                <p id="promedio"></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
